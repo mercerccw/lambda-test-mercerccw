@@ -1,0 +1,11 @@
+service: lambda-test-mercerccw
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  region: us-east-2
+
+functions:
+  helloWorld:
+    handler: lambdas/helloWorld.handler

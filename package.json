@@ -1,0 +1,15 @@
+{
+  "name": "lambda-test-mercerccw",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Clayton Mercer",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./build && yarn tsc",
+    "deploy": "yarn build"
+  },
+  "devDependencies": {
+    "serverless": "^3.30.1",
+    "typescript": "^5.0.4"
+  }
+}
